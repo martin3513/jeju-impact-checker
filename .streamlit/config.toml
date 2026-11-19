@@ -7,8 +7,54 @@ maxUploadSize = 1024
 [browser]
 gatherUsageStats = false
 
-[theme]
-primaryColor = "#1565c0"
-
 [client]
 toolbarMode = "minimal"
+
+# 화면 디자인 A안: 남색 사이드바·머리띠 + 밝은 본문, 청록 강조(대회 포스터 색)
+[theme]
+base = "light"
+primaryColor = "#075F63"
+backgroundColor = "#F3F6F8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#102A40"
+font = "'Malgun Gothic', sans-serif"
+headingFont = "'Malgun Gothic', sans-serif"
+baseFontSize = 16
+paddingTop = "1.5rem"
+headingFontSizes = ["2.5rem", "1.75rem", "1.375rem", "1.2rem", "1.1rem", "1rem"]
+metricValueFontSize = "1.75rem"
+metricValueFontWeight = 700
+baseRadius = "0.75rem"
+buttonRadius = "0.5rem"
+borderColor = "#BCCAD2"
+showWidgetBorder = true
+showSidebarBorder = true
+dataframeHeaderBackgroundColor = "#E6EDF1"
+dataframeBorderColor = "#C9D5DC"
+linkColor = "#075F63"
+greenColor = "#2C713E"
+greenBackgroundColor = "#EBF6E9"
+greenTextColor = "#215E31"
+yellowColor = "#956000"
+yellowBackgroundColor = "#FFF3D3"
+yellowTextColor = "#724700"
+redColor = "#B33942"
+redBackgroundColor = "#FBEDEE"
+redTextColor = "#922731"
+blueColor = "#075F63"
+blueBackgroundColor = "#E2F2F3"
+blueTextColor = "#185D60"
+chartCategoricalColors = ["#00766D", "#526782", "#79519A", "#945E16"]
+
+[theme.sidebar]
+primaryColor = "#05DABC"
+backgroundColor = "#0A223C"
+secondaryBackgroundColor = "#17364F"
+textColor = "#F4F8FC"
+borderColor = "#879CA9"
+linkColor = "#67FDFE"
+codeBackgroundColor = "#17364F"
+codeTextColor = "#F4F8FC"
+showWidgetBorder = true
+blueBackgroundColor = "#123B4C"
+blueTextColor = "#B4F4EF"
