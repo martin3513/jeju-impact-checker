@@ -1,0 +1,11 @@
+.venv/
+.env
+work/
+data/cache/
+data/hub/*.csv
+out_test*/
+__pycache__/
+.pytest_cache/
+*.log
+# 평가용 API 키(제출 ZIP에만 넣고 저장소에는 올리지 않음)
+docs/평가용_API키.txt

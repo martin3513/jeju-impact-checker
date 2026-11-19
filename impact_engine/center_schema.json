@@ -1,0 +1,5941 @@
+{
+ "1-01": {
+  "title": "내국인 카드 이용 현황",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "도",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시",
+    "type": "STRING"
+   },
+   {
+    "name": "emd",
+    "label": "읍면동",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "market_type",
+    "label": "업종",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자 구분",
+    "type": "STRING"
+   },
+   {
+    "name": "age_group",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "gender",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count",
+    "label": "이용자수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "usage_count",
+    "label": "이용건수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "usage_cost",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "province",
+   "city",
+   "emd",
+   "area_type",
+   "market_type",
+   "user_type",
+   "age_group",
+   "gender",
+   "user_count",
+   "usage_count",
+   "usage_cost"
+  ]
+ },
+ "1-02": {
+  "title": "내국인 카드 이용 금액(관광업종)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "market_type",
+    "label": "업종",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자 구분",
+    "type": "STRING"
+   },
+   {
+    "name": "amount_per_person",
+    "label": "인당 이용금액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "amount_per_case",
+    "label": "건당 이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "province",
+   "market_type",
+   "user_type",
+   "amount_per_person",
+   "amount_per_case"
+  ]
+ },
+ "1-03": {
+  "title": "내국인 카드 이용 금액(관광테마)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "market_theme",
+    "label": "테마",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자 구분",
+    "type": "STRING"
+   },
+   {
+    "name": "amount_per_person",
+    "label": "인당 이용금액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "amount_per_case",
+    "label": "건당 이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "province",
+   "market_theme",
+   "user_type",
+   "amount_per_person",
+   "amount_per_case"
+  ]
+ },
+ "1-04": {
+  "title": "중국인 카드 이용 현황",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시군구",
+    "type": "STRING"
+   },
+   {
+    "name": "emd",
+    "label": "읍면동",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "market_type",
+    "label": "업종",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자 구분",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count",
+    "label": "이용자수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "usage_count",
+    "label": "이용건수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "usage_amount",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "province",
+   "city",
+   "emd",
+   "area_type",
+   "market_type",
+   "user_type",
+   "user_count",
+   "usage_count",
+   "usage_amount"
+  ]
+ },
+ "1-05": {
+  "title": "중국인 카드 이용 금액(관광업종)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "market_type",
+    "label": "업종",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "amount_per_person",
+    "label": "인당이용금액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "amount_per_case",
+    "label": "건당이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "province",
+   "market_type",
+   "user_type",
+   "amount_per_person",
+   "amount_per_case"
+  ]
+ },
+ "1-06": {
+  "title": "중국인 카드 이용 금액(관광테마)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "market_theme",
+    "label": "업종테마",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "amount_per_person",
+    "label": "인당이용금액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "amount_per_case",
+    "label": "건당이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "province",
+   "market_theme",
+   "user_type",
+   "amount_per_person",
+   "amount_per_case"
+  ]
+ },
+ "1-07": {
+  "title": "카드 이용 현황(읍면동)_v01",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시군구",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "도심구분",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd",
+    "label": "법정동",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "tour_type",
+    "label": "관광구분",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "city",
+   "area_type",
+   "bjd",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "tour_type",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-08": {
+  "title": "카드 이용 현황(읍면동)_v02",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "dstrct_se",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시군구",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "도심구분",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd",
+    "label": "법정동",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "tour_type",
+    "label": "관광구분",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "dstrct_se",
+   "city",
+   "area_type",
+   "bjd",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "tour_type",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-09": {
+  "title": "카드 이용 현황(1km격자)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시군구",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "도심구분",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd",
+    "label": "법정동",
+    "type": "STRING"
+   },
+   {
+    "name": "grid_1km",
+    "label": "격자코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "STRING"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "STRING"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "city",
+   "area_type",
+   "bjd",
+   "grid_1km",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-10": {
+  "title": "카드 이용 현황(500m격자)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시군구",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "도심구분",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd",
+    "label": "법정동",
+    "type": "STRING"
+   },
+   {
+    "name": "grid_500m",
+    "label": "격자코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "STRING"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "STRING"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "city",
+   "area_type",
+   "bjd",
+   "grid_500m",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-11": {
+  "title": "카드 이용 현황(요일별)_v01",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "tour_type",
+    "label": "관광구분",
+    "type": "STRING"
+   },
+   {
+    "name": "week",
+    "label": "요일구분",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "area_type",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "tour_type",
+   "week",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-12": {
+  "title": "카드 이용 현황(요일별)_v02",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "dstrct_se",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd",
+    "label": "법정동",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "tour_type",
+    "label": "관광구분",
+    "type": "STRING"
+   },
+   {
+    "name": "week",
+    "label": "요일구분",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "dstrct_se",
+   "bjd",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "tour_type",
+   "week",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-13": {
+  "title": "카드 이용 현황(시간대)_v01",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "tour_type",
+    "label": "관광구분",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "area_type",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "tour_type",
+   "time",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-14": {
+  "title": "카드 이용 현황(시간대)_v02",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "dstrct_se",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd",
+    "label": "법정동",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "tour_type",
+    "label": "관광구분",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "dstrct_se",
+   "bjd",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "tour_type",
+   "time",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-15": {
+  "title": "카드 이용 현황(골프장)_v01",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "tour_type",
+    "label": "관광구분",
+    "type": "STRING"
+   },
+   {
+    "name": "week",
+    "label": "요일구분",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "area_type",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "tour_type",
+   "week",
+   "time",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-16": {
+  "title": "카드 이용 현황(골프장)_v02",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "dstrct_se",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd",
+    "label": "법정동",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "tour_type",
+    "label": "관광구분",
+    "type": "STRING"
+   },
+   {
+    "name": "week",
+    "label": "요일구분",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "dstrct_se",
+   "bjd",
+   "biz_cd",
+   "biz_nm",
+   "user_type",
+   "tour_type",
+   "week",
+   "time",
+   "age",
+   "sex",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-17": {
+  "title": "제주도 내 업종별 매장 수",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시군구",
+    "type": "STRING"
+   },
+   {
+    "name": "owner_gb",
+    "label": "매장주 구분",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "store_cnt",
+    "label": "매장수",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "city",
+   "owner_gb",
+   "biz_cd",
+   "biz_nm",
+   "store_cnt"
+  ]
+ },
+ "1-18": {
+  "title": "외식업 포스 이용 현황",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_cd",
+    "label": "중분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_nm",
+    "label": "중분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_cd",
+    "label": "소분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_nm",
+    "label": "소분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "sale_amt",
+    "label": "총매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "store_cnt",
+    "label": "표본수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "biz_mid_cd",
+   "biz_mid_nm",
+   "biz_small_cd",
+   "biz_small_nm",
+   "sale_amt",
+   "store_cnt",
+   "use_cnt"
+  ]
+ },
+ "1-19": {
+  "title": "외식업 포스 이용 현황(읍면동)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "city_cd",
+    "label": "시군구코드",
+    "type": "STRING"
+   },
+   {
+    "name": "city_nm",
+    "label": "시군구명",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd_cd",
+    "label": "법정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd_nm",
+    "label": "법정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_cd",
+    "label": "중분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_nm",
+    "label": "중분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_cd",
+    "label": "소분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_nm",
+    "label": "소분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "sale_amt",
+    "label": "총매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "store_cnt",
+    "label": "표본수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "city_cd",
+   "city_nm",
+   "bjd_cd",
+   "bjd_nm",
+   "biz_mid_cd",
+   "biz_mid_nm",
+   "biz_small_cd",
+   "biz_small_nm",
+   "sale_amt",
+   "store_cnt",
+   "use_cnt"
+  ]
+ },
+ "1-20": {
+  "title": "외식업 포스 이용 현황(500m격자)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "grid_500",
+    "label": "500m 격자코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_cd",
+    "label": "중분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_nm",
+    "label": "중분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_cd",
+    "label": "소분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_nm",
+    "label": "소분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "sale_amt",
+    "label": "총매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "store_cnt",
+    "label": "표본수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "grid_500",
+   "biz_mid_cd",
+   "biz_mid_nm",
+   "biz_small_cd",
+   "biz_small_nm",
+   "sale_amt",
+   "store_cnt",
+   "use_cnt"
+  ]
+ },
+ "1-21": {
+  "title": "외식업 포스 고객 이용 현황",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_cd",
+    "label": "중분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_nm",
+    "label": "중분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_cd",
+    "label": "소분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_nm",
+    "label": "소분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "biz_mid_cd",
+   "biz_mid_nm",
+   "biz_small_cd",
+   "biz_small_nm",
+   "sex",
+   "age",
+   "week",
+   "time",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-22": {
+  "title": "외식업 포스 고객 이용 현황(읍면동)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "city_cd",
+    "label": "시군구코드",
+    "type": "STRING"
+   },
+   {
+    "name": "city_nm",
+    "label": "시군구명",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd_cd",
+    "label": "법정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd_nm",
+    "label": "법정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_cd",
+    "label": "중분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_nm",
+    "label": "중분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_cd",
+    "label": "소분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_nm",
+    "label": "소분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "city_cd",
+   "city_nm",
+   "bjd_cd",
+   "bjd_nm",
+   "biz_mid_cd",
+   "biz_mid_nm",
+   "biz_small_cd",
+   "biz_small_nm",
+   "sex",
+   "age",
+   "week",
+   "time",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-23": {
+  "title": "외식업 포스 고객 이용 현황(500m격자)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "grid_500",
+    "label": "500m 격자코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_cd",
+    "label": "중분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_mid_nm",
+    "label": "중분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_cd",
+    "label": "소분류업종코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_small_nm",
+    "label": "소분류업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "user_cnt",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "use_cnt",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "use_amt",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "grid_500",
+   "biz_mid_cd",
+   "biz_mid_nm",
+   "biz_small_cd",
+   "biz_small_nm",
+   "sex",
+   "age",
+   "week",
+   "time",
+   "user_cnt",
+   "use_cnt",
+   "use_amt"
+  ]
+ },
+ "1-24": {
+  "title": "외식업 포스 메뉴 이용 현황(읍면동)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "city_cd",
+    "label": "시군구코드",
+    "type": "STRING"
+   },
+   {
+    "name": "city_nm",
+    "label": "시군구명",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd_cd",
+    "label": "법정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "bjd_nm",
+    "label": "법정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_cd",
+    "label": "대분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_nm",
+    "label": "대분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_cd",
+    "label": "중분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_nm",
+    "label": "중분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_cd",
+    "label": "소분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_nm",
+    "label": "소분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_sub_cd",
+    "label": "세분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_sub_nm",
+    "label": "세분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "store_sale_amt",
+    "label": "점포당매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "store_sale_cnt",
+    "label": "점포당판매건수",
+    "type": "INT"
+   },
+   {
+    "name": "unit_price",
+    "label": "판매단가",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "city_cd",
+   "city_nm",
+   "bjd_cd",
+   "bjd_nm",
+   "menu_large_cd",
+   "menu_large_nm",
+   "menu_mid_cd",
+   "menu_mid_nm",
+   "menu_small_cd",
+   "menu_small_nm",
+   "menu_sub_cd",
+   "menu_sub_nm",
+   "store_sale_amt",
+   "store_sale_cnt",
+   "unit_price"
+  ]
+ },
+ "1-25": {
+  "title": "외식업 포스 메뉴 이용 현황(500m격자)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "grid_500",
+    "label": "500m 격자코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_cd",
+    "label": "대분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_nm",
+    "label": "대분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_cd",
+    "label": "중분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_nm",
+    "label": "중분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_cd",
+    "label": "소분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_nm",
+    "label": "소분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_sub_cd",
+    "label": "세분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_sub_nm",
+    "label": "세분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "store_sale_amt",
+    "label": "점포당매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "store_sale_cnt",
+    "label": "점포당판매건수",
+    "type": "INT"
+   },
+   {
+    "name": "unit_price",
+    "label": "판매단가",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "grid_500",
+   "menu_large_cd",
+   "menu_large_nm",
+   "menu_mid_cd",
+   "menu_mid_nm",
+   "menu_small_cd",
+   "menu_small_nm",
+   "menu_sub_cd",
+   "menu_sub_nm",
+   "store_sale_amt",
+   "store_sale_cnt",
+   "unit_price"
+  ]
+ },
+ "1-26": {
+  "title": "외식업 포스 메뉴 매출(대분류)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_cd",
+    "label": "대분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_nm",
+    "label": "대분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_sale_amt",
+    "label": "대분류 메뉴판매 총매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "menu_large_store_cnt",
+    "label": "대분류 메뉴판매 표본수",
+    "type": "INT"
+   },
+   {
+    "name": "menu_large_use_cnt",
+    "label": "대분류 메뉴판매 총이용건수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "menu_large_unit_price",
+    "label": "대분류 판매단가",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "menu_large_cd",
+   "menu_large_nm",
+   "menu_large_sale_amt",
+   "menu_large_store_cnt",
+   "menu_large_use_cnt",
+   "menu_large_unit_price"
+  ]
+ },
+ "1-27": {
+  "title": "외식업 포스 메뉴 매출(중분류)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_cd",
+    "label": "대분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_nm",
+    "label": "대분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_cd",
+    "label": "중분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_nm",
+    "label": "중분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_sale_amt",
+    "label": "중분류 메뉴판매 총매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "menu_mid_store_cnt",
+    "label": "중분류 메뉴판매 표본수",
+    "type": "INT"
+   },
+   {
+    "name": "menu_mid_use_cnt",
+    "label": "중분류 메뉴판매 총이용건수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "menu_mid_unit_price",
+    "label": "중분류 판매단가",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "menu_large_cd",
+   "menu_large_nm",
+   "menu_mid_cd",
+   "menu_mid_nm",
+   "menu_mid_sale_amt",
+   "menu_mid_store_cnt",
+   "menu_mid_use_cnt",
+   "menu_mid_unit_price"
+  ]
+ },
+ "1-28": {
+  "title": "외식업 포스 메뉴 매출(소분류)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_cd",
+    "label": "대분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_nm",
+    "label": "대분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_cd",
+    "label": "중분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_nm",
+    "label": "중분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_cd",
+    "label": "소분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_nm",
+    "label": "소분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_sale_amt",
+    "label": "소분류 메뉴판매 총매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "menu_small_store_cnt",
+    "label": "소분류 메뉴판매 표본수",
+    "type": "INT"
+   },
+   {
+    "name": "menu_small_use_cnt",
+    "label": "소분류 메뉴판매 총이용건수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "menu_small_unit_price",
+    "label": "소분류 판매단가",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "menu_large_cd",
+   "menu_large_nm",
+   "menu_mid_cd",
+   "menu_mid_nm",
+   "menu_small_cd",
+   "menu_small_nm",
+   "menu_small_sale_amt",
+   "menu_small_store_cnt",
+   "menu_small_use_cnt",
+   "menu_small_unit_price"
+  ]
+ },
+ "1-29": {
+  "title": "외식업 포스 메뉴 매출(세분류)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(나이스지니데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_cd",
+    "label": "대분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_large_nm",
+    "label": "대분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_cd",
+    "label": "중분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_mid_nm",
+    "label": "중분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_cd",
+    "label": "소분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_small_nm",
+    "label": "소분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_sub_cd",
+    "label": "세분류메뉴코드",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_sub_nm",
+    "label": "세분류메뉴명",
+    "type": "STRING"
+   },
+   {
+    "name": "menu_sub_sale_amt",
+    "label": "세분류 메뉴판매 총매출액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "menu_sub_store_cnt",
+    "label": "세분류 메뉴판매 표본수",
+    "type": "INT"
+   },
+   {
+    "name": "menu_sub_use_cnt",
+    "label": "세분류 메뉴판매 총이용건수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "menu_sub_unit_price",
+    "label": "세분류 판매단가",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "menu_large_cd",
+   "menu_large_nm",
+   "menu_mid_cd",
+   "menu_mid_nm",
+   "menu_small_cd",
+   "menu_small_nm",
+   "menu_sub_cd",
+   "menu_sub_nm",
+   "menu_sub_sale_amt",
+   "menu_sub_store_cnt",
+   "menu_sub_use_cnt",
+   "menu_sub_unit_price"
+  ]
+ },
+ "1-30": {
+  "title": "온라인 카드 이용 현황(제주도민)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시군구",
+    "type": "STRING"
+   },
+   {
+    "name": "area_type",
+    "label": "도심구분",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_large_type",
+    "label": "상품 대분류",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_medium_type",
+    "label": "상품 중분류",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_small_type",
+    "label": "상품 소분류",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_code",
+    "label": "상품코드",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_attribute",
+    "label": "상품속성",
+    "type": "STRING"
+   },
+   {
+    "name": "day_of_week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "job",
+    "label": "직업",
+    "type": "STRING"
+   },
+   {
+    "name": "family_type",
+    "label": "가구생애주기",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "usage_count",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "usage_amount",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "city",
+   "area_type",
+   "goods_large_type",
+   "goods_medium_type",
+   "goods_small_type",
+   "goods_code",
+   "goods_attribute",
+   "day_of_week",
+   "age",
+   "sex",
+   "job",
+   "family_type",
+   "user_count",
+   "usage_count",
+   "usage_amount"
+  ]
+ },
+ "1-31": {
+  "title": "온라인 카드 이용 현황(제주기업)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(비씨카드)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_year_month",
+    "label": "년월",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "city",
+    "label": "시군구",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_large_type",
+    "label": "상품 대분류",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_medium_type",
+    "label": "상품 중분류",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_small_type",
+    "label": "상품 소분류",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_code",
+    "label": "상품코드",
+    "type": "STRING"
+   },
+   {
+    "name": "goods_attribute",
+    "label": "상품속성",
+    "type": "STRING"
+   },
+   {
+    "name": "day_of_week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "job",
+    "label": "직업",
+    "type": "STRING"
+   },
+   {
+    "name": "family_type",
+    "label": "가구생애주기",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count",
+    "label": "이용자수",
+    "type": "INT"
+   },
+   {
+    "name": "usage_count",
+    "label": "이용건수",
+    "type": "INT"
+   },
+   {
+    "name": "usage_amount",
+    "label": "이용금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_year_month",
+   "user_type",
+   "city",
+   "goods_large_type",
+   "goods_medium_type",
+   "goods_small_type",
+   "goods_code",
+   "goods_attribute",
+   "day_of_week",
+   "age",
+   "sex",
+   "job",
+   "family_type",
+   "user_count",
+   "usage_count",
+   "usage_amount"
+  ]
+ },
+ "1-32": {
+  "title": "탐나는전 이용 현황",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(탐나는전)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_ymd",
+    "label": "승인일자",
+    "type": "STRING"
+   },
+   {
+    "name": "zip_code",
+    "label": "우편번호",
+    "type": "STRING"
+   },
+   {
+    "name": "card_cd",
+    "label": "매입사 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "card_nm",
+    "label": "매입사명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_cd",
+    "label": "업종 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_nm",
+    "label": "업종명",
+    "type": "STRING"
+   },
+   {
+    "name": "induty",
+    "label": "표준업종변환",
+    "type": "STRING"
+   },
+   {
+    "name": "amount",
+    "label": "금액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "cnt",
+    "label": "건수",
+    "type": "INT"
+   },
+   {
+    "name": "emd",
+    "label": "읍면동",
+    "type": "STRING"
+   },
+   {
+    "name": "mrkt_nm",
+    "label": "전통시장",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_ymd",
+   "zip_code",
+   "card_cd",
+   "card_nm",
+   "biz_cd",
+   "biz_nm",
+   "induty",
+   "amount",
+   "cnt",
+   "emd",
+   "mrkt_nm"
+  ]
+ },
+ "2-01": {
+  "title": "거래처정보_구매",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(한국기업데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "데이터 기준일",
+    "type": "STRING"
+   },
+   {
+    "name": "kedcd",
+    "label": "한국기업데이터코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_num",
+    "label": "사업자번호",
+    "type": "STRING"
+   },
+   {
+    "name": "ent_nm",
+    "label": "기업명",
+    "type": "STRING"
+   },
+   {
+    "name": "trans_biz_num",
+    "label": "거래처사업자번호",
+    "type": "STRING"
+   },
+   {
+    "name": "sale_buy_code",
+    "label": "구매처판매처구분",
+    "type": "STRING"
+   },
+   {
+    "name": "trans_nm",
+    "label": "거래처명",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "거래처주소_국가",
+    "type": "STRING"
+   },
+   {
+    "name": "sido",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "gungu",
+    "label": "군구",
+    "type": "STRING"
+   },
+   {
+    "name": "emd",
+    "label": "읍면동",
+    "type": "STRING"
+   },
+   {
+    "name": "trans_supplyprice_tot",
+    "label": "거래처 부가세 금액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "trans_rate",
+    "label": "거래비중",
+    "type": "DECIMAL(10,3)"
+   },
+   {
+    "name": "report_year",
+    "label": "사업자 신고 연도",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "kedcd",
+   "biz_num",
+   "ent_nm",
+   "trans_biz_num",
+   "sale_buy_code",
+   "trans_nm",
+   "nationality",
+   "sido",
+   "gungu",
+   "emd",
+   "trans_supplyprice_tot",
+   "trans_rate",
+   "report_year"
+  ]
+ },
+ "2-02": {
+  "title": "거래처정보_판매",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(한국기업데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "데이터 기준일",
+    "type": "STRING"
+   },
+   {
+    "name": "kedcd",
+    "label": "한국기업데이터 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_num",
+    "label": "사업자번호",
+    "type": "STRING"
+   },
+   {
+    "name": "ent_nm",
+    "label": "기업명",
+    "type": "STRING"
+   },
+   {
+    "name": "trans_biz_num",
+    "label": "거래처사업자번호",
+    "type": "STRING"
+   },
+   {
+    "name": "sale_buy_code",
+    "label": "구매처판매처구분",
+    "type": "STRING"
+   },
+   {
+    "name": "trans_nm",
+    "label": "거래처명",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "거래처주소_국가",
+    "type": "STRING"
+   },
+   {
+    "name": "sido",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "gungu",
+    "label": "군구",
+    "type": "STRING"
+   },
+   {
+    "name": "emd",
+    "label": "읍면동",
+    "type": "STRING"
+   },
+   {
+    "name": "trans_supplyprice_tot",
+    "label": "거래처 부가세 금액",
+    "type": "BIGINT"
+   },
+   {
+    "name": "trans_rate",
+    "label": "거래비중",
+    "type": "DECIMAL(10,3)"
+   },
+   {
+    "name": "report_year",
+    "label": "기준년도",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "kedcd",
+   "biz_num",
+   "ent_nm",
+   "trans_biz_num",
+   "sale_buy_code",
+   "trans_nm",
+   "nationality",
+   "sido",
+   "gungu",
+   "emd",
+   "trans_supplyprice_tot",
+   "trans_rate",
+   "report_year"
+  ]
+ },
+ "2-03": {
+  "title": "기업정보",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(한국기업데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "데이터 기준일",
+    "type": "STRING"
+   },
+   {
+    "name": "ked_code",
+    "label": "한국기업데이터 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "ent_nm",
+    "label": "기업명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_num",
+    "label": "사업자번호",
+    "type": "STRING"
+   },
+   {
+    "name": "corporation_num",
+    "label": "법인번호",
+    "type": "STRING"
+   },
+   {
+    "name": "establishment_date",
+    "label": "설립일자",
+    "type": "STRING"
+   },
+   {
+    "name": "establishment_form",
+    "label": "설립형태",
+    "type": "STRING"
+   },
+   {
+    "name": "ent_form",
+    "label": "기업형태",
+    "type": "STRING"
+   },
+   {
+    "name": "ent_size",
+    "label": "기업규모",
+    "type": "STRING"
+   },
+   {
+    "name": "venture_ent",
+    "label": "벤처기업유무",
+    "type": "STRING"
+   },
+   {
+    "name": "female_ent",
+    "label": "여성기업여부",
+    "type": "STRING"
+   },
+   {
+    "name": "ksic10_biz_cd",
+    "label": "업종코드_10차",
+    "type": "STRING"
+   },
+   {
+    "name": "ksic10_biz_nm",
+    "label": "업종명_10차",
+    "type": "STRING"
+   },
+   {
+    "name": "address_emd",
+    "label": "주소_읍면동",
+    "type": "STRING"
+   },
+   {
+    "name": "latitude",
+    "label": "위도",
+    "type": "STRING"
+   },
+   {
+    "name": "longitude",
+    "label": "경도",
+    "type": "STRING"
+   },
+   {
+    "name": "main_products",
+    "label": "주요생산품",
+    "type": "STRING"
+   },
+   {
+    "name": "closed_biz_class",
+    "label": "휴폐업구분",
+    "type": "STRING"
+   },
+   {
+    "name": "move_in",
+    "label": "전입여부",
+    "type": "STRING"
+   },
+   {
+    "name": "move_in_date",
+    "label": "전입일자",
+    "type": "STRING"
+   },
+   {
+    "name": "move_out",
+    "label": "전출여부",
+    "type": "STRING"
+   },
+   {
+    "name": "move_out_date",
+    "label": "전출일자",
+    "type": "STRING"
+   },
+   {
+    "name": "move_out_sido",
+    "label": "전출지_시도",
+    "type": "STRING"
+   },
+   {
+    "name": "move_out_gungu",
+    "label": "전출지_군구",
+    "type": "STRING"
+   },
+   {
+    "name": "move_out_emd",
+    "label": "전출지_읍면동",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "ked_code",
+   "ent_nm",
+   "biz_num",
+   "corporation_num",
+   "establishment_date",
+   "establishment_form",
+   "ent_form",
+   "ent_size",
+   "venture_ent",
+   "female_ent",
+   "ksic10_biz_cd",
+   "ksic10_biz_nm",
+   "address_emd",
+   "latitude",
+   "longitude",
+   "main_products",
+   "closed_biz_class",
+   "move_in",
+   "move_in_date",
+   "move_out",
+   "move_out_date",
+   "move_out_sido",
+   "move_out_gungu",
+   "move_out_emd"
+  ]
+ },
+ "2-04": {
+  "title": "신용정보",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(한국기업데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "데이터 기준일",
+    "type": "STRING"
+   },
+   {
+    "name": "kedcd",
+    "label": "한국기업데이터 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_num",
+    "label": "사업자번호",
+    "type": "STRING"
+   },
+   {
+    "name": "registration_cnt",
+    "label": "채무불이행등록건수",
+    "type": "INT"
+   },
+   {
+    "name": "registration_amt",
+    "label": "채무불이행등록금액(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "overdue_amt",
+    "label": "채무불이행연체금액(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "credit_grade",
+    "label": "신용등급",
+    "type": "STRING"
+   },
+   {
+    "name": "evaluation_date",
+    "label": "평가일",
+    "type": "STRING"
+   },
+   {
+    "name": "account_date",
+    "label": "결산기준일",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "kedcd",
+   "biz_num",
+   "registration_cnt",
+   "registration_amt",
+   "overdue_amt",
+   "credit_grade",
+   "evaluation_date",
+   "account_date"
+  ]
+ },
+ "2-05": {
+  "title": "재무정보_결산",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(한국기업데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "데이터 기준일",
+    "type": "STRING"
+   },
+   {
+    "name": "kedcd",
+    "label": "한국기업데이터 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "account_date",
+    "label": "회계기준년월일",
+    "type": "STRING"
+   },
+   {
+    "name": "account_year",
+    "label": "회계기준년",
+    "type": "STRING"
+   },
+   {
+    "name": "assets_tot",
+    "label": "총자산(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "debt_tot",
+    "label": "총부채(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "capital_tot",
+    "label": "총자본(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "equity_caputal",
+    "label": "자기자본(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "current_rate",
+    "label": "유동비율",
+    "type": "DECIMAL(10,5)"
+   },
+   {
+    "name": "debt_rate",
+    "label": "부채비율",
+    "type": "DECIMAL(10,5)"
+   },
+   {
+    "name": "sale_amt",
+    "label": "매출액(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "operate_profit",
+    "label": "영업이익(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "net_income",
+    "label": "당기순이익(천원)",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "kedcd",
+   "account_date",
+   "account_year",
+   "assets_tot",
+   "debt_tot",
+   "capital_tot",
+   "equity_caputal",
+   "current_rate",
+   "debt_rate",
+   "sale_amt",
+   "operate_profit",
+   "net_income"
+  ]
+ },
+ "2-06": {
+  "title": "재무정보_분기",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(한국기업데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "데이터 기준일",
+    "type": "STRING"
+   },
+   {
+    "name": "finance_date",
+    "label": "재무기준년월일",
+    "type": "STRING"
+   },
+   {
+    "name": "finance_year",
+    "label": "재무기준년",
+    "type": "STRING"
+   },
+   {
+    "name": "quarter",
+    "label": "재무분기",
+    "type": "STRING"
+   },
+   {
+    "name": "kedcd",
+    "label": "한국기업데이터 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "ent_nm",
+    "label": "기업명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_num",
+    "label": "사업자번호",
+    "type": "STRING"
+   },
+   {
+    "name": "corporation_num",
+    "label": "법인번호",
+    "type": "STRING"
+   },
+   {
+    "name": "assets_tot",
+    "label": "총자산(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "debt_tot",
+    "label": "총부채(천원)",
+    "type": "BIGINT"
+   },
+   {
+    "name": "capital_tot",
+    "label": "총자본(천원)",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "finance_date",
+   "finance_year",
+   "quarter",
+   "kedcd",
+   "ent_nm",
+   "biz_num",
+   "corporation_num",
+   "assets_tot",
+   "debt_tot",
+   "capital_tot"
+  ]
+ },
+ "2-07": {
+  "title": "재무정보_직원수",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(한국기업데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "데이터 기준일",
+    "type": "STRING"
+   },
+   {
+    "name": "kedcd",
+    "label": "한국기업데이터 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "penson_date",
+    "label": "국민연금_기준일자",
+    "type": "STRING"
+   },
+   {
+    "name": "penson_join_cnt",
+    "label": "국민연금_가입자",
+    "type": "INT"
+   },
+   {
+    "name": "monthly_employees",
+    "label": "국민연금_입사자",
+    "type": "INT"
+   },
+   {
+    "name": "monthly_retirement",
+    "label": "국민연금_퇴사자",
+    "type": "INT"
+   },
+   {
+    "name": "employees_date",
+    "label": "종사자수_기준일자",
+    "type": "STRING"
+   },
+   {
+    "name": "employees_cnt",
+    "label": "종사자수",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "kedcd",
+   "penson_date",
+   "penson_join_cnt",
+   "monthly_employees",
+   "monthly_retirement",
+   "employees_date",
+   "employees_cnt"
+  ]
+ },
+ "2-08": {
+  "title": "휴폐업",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(한국기업데이터)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "데이터 기준일",
+    "type": "STRING"
+   },
+   {
+    "name": "kedcd",
+    "label": "한국기업데이터 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "ent_nm",
+    "label": "기업명",
+    "type": "STRING"
+   },
+   {
+    "name": "biz_num",
+    "label": "사업자번호",
+    "type": "STRING"
+   },
+   {
+    "name": "establish_biz_date",
+    "label": "설립일",
+    "type": "STRING"
+   },
+   {
+    "name": "closed_biz",
+    "label": "휴페업여부",
+    "type": "STRING"
+   },
+   {
+    "name": "closed_biz_date",
+    "label": "휴폐업일자",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "kedcd",
+   "ent_nm",
+   "biz_num",
+   "establish_biz_date",
+   "closed_biz",
+   "closed_biz_date"
+  ]
+ },
+ "3-01": {
+  "title": "버스 노선 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(티머니)",
+  "columns": [
+   {
+    "name": "serial_number",
+    "label": "일련번호",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_route_id",
+    "label": "버스 노선 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_route_number",
+    "label": "버스 노선 번호",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_route_name",
+    "label": "버스 노선명",
+    "type": "STRING"
+   },
+   {
+    "name": "start_date",
+    "label": "시작일",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_station_count",
+    "label": "버스 정류소 수",
+    "type": "INT"
+   },
+   {
+    "name": "bus_route_length",
+    "label": "버스 노선거리",
+    "type": "INT"
+   },
+   {
+    "name": "bus_transferability",
+    "label": "환승가능여부",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "serial_number",
+   "base_date",
+   "bus_route_id",
+   "bus_route_number",
+   "bus_route_name",
+   "start_date",
+   "bus_station_count",
+   "bus_route_length",
+   "bus_transferability"
+  ]
+ },
+ "3-02": {
+  "title": "버스 노선별 이용 현황",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(티머니)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "day_of_week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "base_hour",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_route_id",
+    "label": "버스 노선 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_route_name",
+    "label": "버스 노선명",
+    "type": "STRING"
+   },
+   {
+    "name": "get_on_off_type",
+    "label": "승하차유형",
+    "type": "STRING"
+   },
+   {
+    "name": "user_category",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "pay_type",
+    "label": "결제유형",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count",
+    "label": "이용자수",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "day_of_week",
+   "base_hour",
+   "bus_route_id",
+   "bus_route_name",
+   "get_on_off_type",
+   "user_category",
+   "pay_type",
+   "user_count"
+  ]
+ },
+ "3-03": {
+  "title": "버스 정류소 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(티머니)",
+  "columns": [
+   {
+    "name": "serial_number",
+    "label": "일련번호",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_station_id",
+    "label": "정류소 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_station_name",
+    "label": "정류소명",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_city_type",
+    "label": "시내, 시외 구분",
+    "type": "STRING"
+   },
+   {
+    "name": "longitude",
+    "label": "경도",
+    "type": "STRING"
+   },
+   {
+    "name": "latitude",
+    "label": "위도",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "serial_number",
+   "base_date",
+   "bus_station_id",
+   "bus_station_name",
+   "bus_city_type",
+   "longitude",
+   "latitude"
+  ]
+ },
+ "3-04": {
+  "title": "버스 정류소별 이용 현황",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(티머니)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "day_of_week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "base_hour",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_station_id",
+    "label": "정류소 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_station_name",
+    "label": "정류소명",
+    "type": "STRING"
+   },
+   {
+    "name": "get_on_off_type",
+    "label": "승하차유형",
+    "type": "STRING"
+   },
+   {
+    "name": "user_category",
+    "label": "이용자구분",
+    "type": "STRING"
+   },
+   {
+    "name": "pay_type",
+    "label": "결제유형",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count",
+    "label": "이용자 수",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "day_of_week",
+   "base_hour",
+   "bus_station_id",
+   "bus_station_name",
+   "get_on_off_type",
+   "user_category",
+   "pay_type",
+   "user_count"
+  ]
+ },
+ "3-05": {
+  "title": "버스 승객별 이용 현황",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(티머니)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "user_id",
+    "label": "사용자 식별자",
+    "type": "STRING"
+   },
+   {
+    "name": "route_id",
+    "label": "버스 노선 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "route_name",
+    "label": "버스 노선명",
+    "type": "STRING"
+   },
+   {
+    "name": "route_no",
+    "label": "버스 노선 번호",
+    "type": "STRING"
+   },
+   {
+    "name": "geton_datetime",
+    "label": "승차일시",
+    "type": "STRING"
+   },
+   {
+    "name": "geton_station_id",
+    "label": "승차정류소 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "geton_stataion_name",
+    "label": "승차정류소명",
+    "type": "STRING"
+   },
+   {
+    "name": "geton_station_longitude",
+    "label": "승차정류소 경도좌표",
+    "type": "STRING"
+   },
+   {
+    "name": "geton_station_latitude",
+    "label": "승차정류소 위도좌표",
+    "type": "STRING"
+   },
+   {
+    "name": "getoff_datetime",
+    "label": "하차일시",
+    "type": "STRING"
+   },
+   {
+    "name": "getoff_station_id",
+    "label": "하차 정류소아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "getoff_station_name",
+    "label": "하차 정류소명",
+    "type": "STRING"
+   },
+   {
+    "name": "getoff_station_longitude",
+    "label": "하차정류소 경도좌표",
+    "type": "STRING"
+   },
+   {
+    "name": "getoff_station_latitude",
+    "label": "하차정류소 위도좌표",
+    "type": "STRING"
+   },
+   {
+    "name": "user_type",
+    "label": "사용자 유형",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count",
+    "label": "이용자수",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "user_id",
+   "route_id",
+   "route_name",
+   "route_no",
+   "geton_datetime",
+   "geton_station_id",
+   "geton_stataion_name",
+   "geton_station_longitude",
+   "geton_station_latitude",
+   "getoff_datetime",
+   "getoff_station_id",
+   "getoff_station_name",
+   "getoff_station_longitude",
+   "getoff_station_latitude",
+   "user_type",
+   "user_count"
+  ]
+ },
+ "3-06": {
+  "title": "버스 카드 승하차 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(티머니)",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "recode_num",
+    "label": "순번",
+    "type": "STRING"
+   },
+   {
+    "name": "user_card_id",
+    "label": "카드번호",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "승차일",
+    "type": "STRING"
+   },
+   {
+    "name": "user_trans_id",
+    "label": "트랜잭션 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "trans_type_cd",
+    "label": "교통수단코드",
+    "type": "STRING"
+   },
+   {
+    "name": "user_transfer_count",
+    "label": "환승횟수",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_route_id",
+    "label": "버스노선 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "trans_cmp_id",
+    "label": "교통사업자 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "vhc_id",
+    "label": "차량 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "runstart_time",
+    "label": "운행출발일시",
+    "type": "STRING"
+   },
+   {
+    "name": "user_geton_datetime",
+    "label": "승차거래일시",
+    "type": "STRING"
+   },
+   {
+    "name": "user_geton_station_id",
+    "label": "승차정류장 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "user_getoff_datetime",
+    "label": "하차거래일시",
+    "type": "STRING"
+   },
+   {
+    "name": "user_getoff_station_id",
+    "label": "하차정류장 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "user_category_cd_1",
+    "label": "사용자구분1",
+    "type": "STRING"
+   },
+   {
+    "name": "user_category_cd_2",
+    "label": "사용자구분2",
+    "type": "STRING"
+   },
+   {
+    "name": "user_category_cd_3",
+    "label": "사용자구분3",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count_1",
+    "label": "승객수1",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count_2",
+    "label": "승객수2",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count_3",
+    "label": "승객수3",
+    "type": "STRING"
+   },
+   {
+    "name": "user_geton_fare",
+    "label": "승차금액",
+    "type": "STRING"
+   },
+   {
+    "name": "user_getoff_fare",
+    "label": "하차금액",
+    "type": "STRING"
+   },
+   {
+    "name": "driver_id",
+    "label": "운전자 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "geton_fare_dt",
+    "label": "승차정산일자",
+    "type": "STRING"
+   },
+   {
+    "name": "getoff_fare_dt",
+    "label": "하차정산일자",
+    "type": "STRING"
+   },
+   {
+    "name": "user_distance",
+    "label": "이용거리",
+    "type": "STRING"
+   },
+   {
+    "name": "penalty_cd",
+    "label": "패널티코드",
+    "type": "STRING"
+   },
+   {
+    "name": "penalty_fare",
+    "label": "패널티금액",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "recode_num",
+   "user_card_id",
+   "base_date",
+   "user_trans_id",
+   "trans_type_cd",
+   "user_transfer_count",
+   "bus_route_id",
+   "trans_cmp_id",
+   "vhc_id",
+   "runstart_time",
+   "user_geton_datetime",
+   "user_geton_station_id",
+   "user_getoff_datetime",
+   "user_getoff_station_id",
+   "user_category_cd_1",
+   "user_category_cd_2",
+   "user_category_cd_3",
+   "user_count_1",
+   "user_count_2",
+   "user_count_3",
+   "user_geton_fare",
+   "user_getoff_fare",
+   "driver_id",
+   "geton_fare_dt",
+   "getoff_fare_dt",
+   "user_distance",
+   "penalty_cd",
+   "penalty_fare"
+  ]
+ },
+ "3-07": {
+  "title": "도로 구간 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(교통정보센터)",
+  "columns": [
+   {
+    "name": "link_id",
+    "label": "링크 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "start_node_id",
+    "label": "시작노드 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "end_node_id",
+    "label": "종료노드 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "road_in_use",
+    "label": "도로 사용 여부",
+    "type": "STRING"
+   },
+   {
+    "name": "lane_count",
+    "label": "차로수",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "road_rating",
+    "label": "도로등급",
+    "type": "STRING"
+   },
+   {
+    "name": "road_name",
+    "label": "도로명",
+    "type": "STRING"
+   },
+   {
+    "name": "multi_linked",
+    "label": "중용구간 여부",
+    "type": "STRING"
+   },
+   {
+    "name": "connect_code",
+    "label": "연결로 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "maximum_speed_limit",
+    "label": "최고속도제한",
+    "type": "STRING"
+   },
+   {
+    "name": "vehicle_restricted",
+    "label": "통과제한차량",
+    "type": "STRING"
+   },
+   {
+    "name": "weight_restricted",
+    "label": "통과제한하중",
+    "type": "STRING"
+   },
+   {
+    "name": "height_restricted",
+    "label": "통과제한높이",
+    "type": "STRING"
+   },
+   {
+    "name": "road_type",
+    "label": "도로 유형",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "link_id",
+   "start_node_id",
+   "end_node_id",
+   "road_in_use",
+   "lane_count",
+   "road_rating",
+   "road_name",
+   "multi_linked",
+   "connect_code",
+   "maximum_speed_limit",
+   "vehicle_restricted",
+   "weight_restricted",
+   "height_restricted",
+   "road_type"
+  ]
+ },
+ "3-08": {
+  "title": "도로 노드 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(교통정보센터)",
+  "columns": [
+   {
+    "name": "node_id",
+    "label": "노드 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "node_name",
+    "label": "교차로명칭",
+    "type": "STRING"
+   },
+   {
+    "name": "latitude",
+    "label": "위도",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "longitude",
+    "label": "경도",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "turn_restricted",
+    "label": "회전제한 유무",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "node_id",
+   "node_name",
+   "latitude",
+   "longitude",
+   "turn_restricted"
+  ]
+ },
+ "3-09": {
+  "title": "일일 교통량 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(교통정보센터)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "day_of_week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "link_id",
+    "label": "링크 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "average_speed",
+    "label": "평균 속도",
+    "type": "INT"
+   },
+   {
+    "name": "average_time",
+    "label": "평균 소요 시간",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "day_of_week",
+   "link_id",
+   "average_speed",
+   "average_time"
+  ]
+ },
+ "3-10": {
+  "title": "일,시간대별 교통량 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(교통정보센터)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "day_of_week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "base_hour",
+    "label": "시간대",
+    "type": "STRING"
+   },
+   {
+    "name": "link_id",
+    "label": "링크 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "average_speed",
+    "label": "평균 속도",
+    "type": "INT"
+   },
+   {
+    "name": "average_time",
+    "label": "평균 소요 시간",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "day_of_week",
+   "base_hour",
+   "link_id",
+   "average_speed",
+   "average_time"
+  ]
+ },
+ "4-01": {
+  "title": "와이파이 AP 현황(고정형, 최신)",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "기준일",
+    "type": "varchar"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "manage_no",
+    "label": "관리번호",
+    "type": "STRING"
+   },
+   {
+    "name": "mac_address",
+    "label": "MAC주소",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_group_name",
+    "label": "장소명칭",
+    "type": "STRING"
+   },
+   {
+    "name": "install_location_detail",
+    "label": "AP설치위치",
+    "type": "STRING"
+   },
+   {
+    "name": "open_date",
+    "label": "개통일",
+    "type": "STRING"
+   },
+   {
+    "name": "category",
+    "label": "카테고리",
+    "type": "STRING"
+   },
+   {
+    "name": "category_detail",
+    "label": "상세카테고리",
+    "type": "STRING"
+   },
+   {
+    "name": "address_dong",
+    "label": "주소",
+    "type": "STRING"
+   },
+   {
+    "name": "address_detail",
+    "label": "상세주소",
+    "type": "STRING"
+   },
+   {
+    "name": "latitude",
+    "label": "위도",
+    "type": "STRING"
+   },
+   {
+    "name": "longitude",
+    "label": "경도",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "manage_no",
+   "mac_address",
+   "ap_group_name",
+   "install_location_detail",
+   "open_date",
+   "category",
+   "category_detail",
+   "address_dong",
+   "address_detail",
+   "latitude",
+   "longitude"
+  ]
+ },
+ "4-02": {
+  "title": "와이파이 AP 현황(고정형, 과거)",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "기준일",
+    "type": "varchar"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "mac_address",
+    "label": "MAC주소",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_install_place",
+    "label": "설치장소",
+    "type": "STRING"
+   },
+   {
+    "name": "install_location_detail",
+    "label": "설치장소상세",
+    "type": "STRING"
+   },
+   {
+    "name": "open_date",
+    "label": "개통일",
+    "type": "STRING"
+   },
+   {
+    "name": "category",
+    "label": "카테고리",
+    "type": "STRING"
+   },
+   {
+    "name": "address_dong",
+    "label": "주소",
+    "type": "STRING"
+   },
+   {
+    "name": "address_detail",
+    "label": "상세주소",
+    "type": "STRING"
+   },
+   {
+    "name": "latitude",
+    "label": "위도",
+    "type": "STRING"
+   },
+   {
+    "name": "longitude",
+    "label": "경도",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "mac_address",
+   "ap_install_place",
+   "install_location_detail",
+   "open_date",
+   "category",
+   "address_dong",
+   "address_detail",
+   "latitude",
+   "longitude"
+  ]
+ },
+ "4-03": {
+  "title": "와이파이 AP 현황(이동형)",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "기준일",
+    "type": "varchar"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "mac_address",
+    "label": "MAC주소",
+    "type": "STRING"
+   },
+   {
+    "name": "company_name",
+    "label": "회사명",
+    "type": "STRING"
+   },
+   {
+    "name": "bus_num",
+    "label": "버스번호",
+    "type": "STRING"
+   },
+   {
+    "name": "open_date",
+    "label": "개통일",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "mac_address",
+   "company_name",
+   "bus_num",
+   "open_date"
+  ]
+ },
+ "4-04": {
+  "title": "와이파이 이용 현황",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "user_id",
+    "label": "사용자 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "mac_address",
+    "label": "맥어드레스",
+    "type": "STRING"
+   },
+   {
+    "name": "upload",
+    "label": "업로드 패킷량",
+    "type": "BIGINT"
+   },
+   {
+    "name": "download",
+    "label": "다운로드 패킷량",
+    "type": "BIGINT"
+   },
+   {
+    "name": "session_time",
+    "label": "서비스 사용시간",
+    "type": "BIGINT"
+   },
+   {
+    "name": "nationality",
+    "label": "국적",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "gender",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_type",
+    "label": "방문유형",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_type",
+    "label": "AP유형",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "user_id",
+   "mac_address",
+   "upload",
+   "download",
+   "session_time",
+   "nationality",
+   "province",
+   "gender",
+   "age",
+   "visit_type",
+   "ap_type"
+  ]
+ },
+ "4-05": {
+  "title": "와이파이 AP별 이용 현황",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "user_id",
+    "label": "사용자 아이디",
+    "type": "STRING"
+   },
+   {
+    "name": "mac_address",
+    "label": "맥어드레스",
+    "type": "STRING"
+   },
+   {
+    "name": "upload",
+    "label": "업로드 패킷량",
+    "type": "BIGINT"
+   },
+   {
+    "name": "download",
+    "label": "다운로드 패킷량",
+    "type": "BIGINT"
+   },
+   {
+    "name": "session_time",
+    "label": "서비스 사용시간",
+    "type": "BIGINT"
+   },
+   {
+    "name": "nationality",
+    "label": "국적",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "gender",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_type",
+    "label": "방문유형",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_type",
+    "label": "AP유형",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_category",
+    "label": "AP카테고리",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_place",
+    "label": "AP장소",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_place_detail",
+    "label": "AP상세장소",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_latitude",
+    "label": "AP위도",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_longitude",
+    "label": "AP경도",
+    "type": "STRING"
+   },
+   {
+    "name": "ap_address_detail",
+    "label": "AP주소",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "user_id",
+   "mac_address",
+   "upload",
+   "download",
+   "session_time",
+   "nationality",
+   "province",
+   "gender",
+   "age",
+   "visit_type",
+   "ap_type",
+   "ap_category",
+   "ap_place",
+   "ap_place_detail",
+   "ap_latitude",
+   "ap_longitude",
+   "ap_address_detail"
+  ]
+ },
+ "4-06": {
+  "title": "와이파이 일별 이용자 현황",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "day_of_week",
+    "label": "요일",
+    "type": "STRING"
+   },
+   {
+    "name": "gender",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "국적",
+    "type": "STRING"
+   },
+   {
+    "name": "province",
+    "label": "시도",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_type",
+    "label": "방문형태",
+    "type": "STRING"
+   },
+   {
+    "name": "user_count",
+    "label": "이용자수",
+    "type": "INT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "day_of_week",
+   "gender",
+   "age",
+   "nationality",
+   "province",
+   "visit_type",
+   "user_count"
+  ]
+ },
+ "4-07": {
+  "title": "내국인 유동인구(50m격자)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT, KT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "grid",
+    "label": "격자코드",
+    "type": "STRING"
+   },
+   {
+    "name": "resd_pop_cnt",
+    "label": "거주인구",
+    "type": "STRING"
+   },
+   {
+    "name": "work_pop_cnt",
+    "label": "근무인구",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   },
+   {
+    "name": "resd",
+    "label": "거주지행정구역",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "sex",
+   "age",
+   "grid",
+   "resd_pop_cnt",
+   "work_pop_cnt",
+   "visit_pop_cnt",
+   "resd"
+  ]
+ },
+ "4-08": {
+  "title": "장기체류 외국인 유동인구(50m격자)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT, KT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "국적코드",
+    "type": "STRING"
+   },
+   {
+    "name": "grid",
+    "label": "격자코드",
+    "type": "STRING"
+   },
+   {
+    "name": "resd_pop_cnt",
+    "label": "거주인구",
+    "type": "STRING"
+   },
+   {
+    "name": "work_pop_cnt",
+    "label": "근무인구",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   },
+   {
+    "name": "resd",
+    "label": "거주지행정구역",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "nationality",
+   "grid",
+   "resd_pop_cnt",
+   "work_pop_cnt",
+   "visit_pop_cnt",
+   "resd"
+  ]
+ },
+ "4-09": {
+  "title": "단기체류 외국인 유동인구(50m격자)",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT, KT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "국적",
+    "type": "STRING"
+   },
+   {
+    "name": "grid",
+    "label": "격자코드",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "nationality",
+   "grid",
+   "visit_pop_cnt"
+  ]
+ },
+ "4-10": {
+  "title": "내국인 유동인구(읍면동)_v01",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT, KT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_cd",
+    "label": "행정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_nm",
+    "label": "행정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "resd_pop_cnt",
+    "label": "거주인구",
+    "type": "STRING"
+   },
+   {
+    "name": "work_pop_cnt",
+    "label": "근무인구",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   },
+   {
+    "name": "resd",
+    "label": "거주지행정구역",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "emd_cd",
+   "emd_nm",
+   "sex",
+   "age",
+   "resd_pop_cnt",
+   "work_pop_cnt",
+   "visit_pop_cnt",
+   "resd"
+  ]
+ },
+ "4-11": {
+  "title": "내국인 유동인구(읍면동)_v02",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "dstrct_se",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_cd",
+    "label": "행정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_nm",
+    "label": "행정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "sex",
+    "label": "성별",
+    "type": "STRING"
+   },
+   {
+    "name": "age",
+    "label": "연령대",
+    "type": "STRING"
+   },
+   {
+    "name": "resd_pop_cnt",
+    "label": "거주인구",
+    "type": "STRING"
+   },
+   {
+    "name": "work_pop_cnt",
+    "label": "근무인구",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   },
+   {
+    "name": "resd",
+    "label": "거주지행정구역",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "dstrct_se",
+   "emd_cd",
+   "emd_nm",
+   "sex",
+   "age",
+   "resd_pop_cnt",
+   "work_pop_cnt",
+   "visit_pop_cnt",
+   "resd"
+  ]
+ },
+ "4-12": {
+  "title": "장기체류 외국인 유동인구(읍면동)_v01",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT, KT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "국적코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_cd",
+    "label": "행정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_nm",
+    "label": "행정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "resd_pop_cnt",
+    "label": "거주인구",
+    "type": "STRING"
+   },
+   {
+    "name": "work_pop_cnt",
+    "label": "근무인구",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   },
+   {
+    "name": "resd",
+    "label": "거주지행정구역",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "nationality",
+   "emd_cd",
+   "emd_nm",
+   "resd_pop_cnt",
+   "work_pop_cnt",
+   "visit_pop_cnt",
+   "resd"
+  ]
+ },
+ "4-13": {
+  "title": "장기체류 외국인 유동인구(읍면동)_v02",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "dstrct_se",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "국적코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_cd",
+    "label": "행정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_nm",
+    "label": "행정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "resd_pop_cnt",
+    "label": "거주인구",
+    "type": "STRING"
+   },
+   {
+    "name": "work_pop_cnt",
+    "label": "근무인구",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   },
+   {
+    "name": "resd",
+    "label": "거주지행정구역",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "dstrct_se",
+   "nationality",
+   "emd_cd",
+   "emd_nm",
+   "resd_pop_cnt",
+   "work_pop_cnt",
+   "visit_pop_cnt",
+   "resd"
+  ]
+ },
+ "4-14": {
+  "title": "단기체류 외국인 유동인구(읍면동)_v01",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT, KT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "국적코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_cd",
+    "label": "행정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_nm",
+    "label": "행정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "nationality",
+   "emd_cd",
+   "emd_nm",
+   "visit_pop_cnt"
+  ]
+ },
+ "4-15": {
+  "title": "단기체류 외국인 유동인구(읍면동)_v02",
+  "export": "데이터 반출 불가능",
+  "provider": "제주특별자치도(SKT)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "time",
+    "label": "시간",
+    "type": "STRING"
+   },
+   {
+    "name": "dstrct_se",
+    "label": "지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "nationality",
+    "label": "국적코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_cd",
+    "label": "행정동코드",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_nm",
+    "label": "행정동명",
+    "type": "STRING"
+   },
+   {
+    "name": "visit_pop_cnt",
+    "label": "방문인구",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "time",
+   "dstrct_se",
+   "nationality",
+   "emd_cd",
+   "emd_nm",
+   "visit_pop_cnt"
+  ]
+ },
+ "5-01": {
+  "title": "날씨 관측소 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(농업기술원)",
+  "columns": [
+   {
+    "name": "observatory_code",
+    "label": "관측소코드",
+    "type": "STRING"
+   },
+   {
+    "name": "observatory_name",
+    "label": "관측소명",
+    "type": "STRING"
+   },
+   {
+    "name": "start_date",
+    "label": "시작일",
+    "type": "STRING"
+   },
+   {
+    "name": "end_date",
+    "label": "종료일",
+    "type": "STRING"
+   },
+   {
+    "name": "management_office",
+    "label": "관리관서",
+    "type": "STRING"
+   },
+   {
+    "name": "longitude",
+    "label": "경도",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "latitude",
+    "label": "위도",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "legal_dongri_code",
+    "label": "법정동리코드",
+    "type": "STRING"
+   },
+   {
+    "name": "sea_level_altitude",
+    "label": "노장해발고도",
+    "type": "DOUBLE"
+   }
+  ],
+  "csv_columns": [
+   "observatory_code",
+   "observatory_name",
+   "start_date",
+   "end_date",
+   "management_office",
+   "longitude",
+   "latitude",
+   "legal_dongri_code",
+   "sea_level_altitude"
+  ]
+ },
+ "5-02": {
+  "title": "일일 날씨 정보",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "날짜",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "observatory_code",
+    "label": "관측소 코드",
+    "type": "STRING"
+   },
+   {
+    "name": "average_temperature",
+    "label": "평균 기온",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "lowest_temperature",
+    "label": "최저 기온",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "lowest_temperature_time",
+    "label": "최저 기온 시각",
+    "type": "STRING"
+   },
+   {
+    "name": "highest_temperature",
+    "label": "최고 기온",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "highest_temperature_time",
+    "label": "최고 기온 시각",
+    "type": "STRING"
+   },
+   {
+    "name": "daily_rainfall",
+    "label": "일강수량",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "maximum_wind_speed",
+    "label": "최대 순간 풍속",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "maximum_wind_speed_time",
+    "label": "최대 순간 풍속 시간",
+    "type": "STRING"
+   },
+   {
+    "name": "average_wind_speed",
+    "label": "평균 풍속",
+    "type": "DOUBLE"
+   },
+   {
+    "name": "maximum_wind_speed_direction",
+    "label": "최대 순간 풍속 풍향",
+    "type": "DOUBLE"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "observatory_code",
+   "average_temperature",
+   "lowest_temperature",
+   "lowest_temperature_time",
+   "highest_temperature",
+   "highest_temperature_time",
+   "daily_rainfall",
+   "maximum_wind_speed",
+   "maximum_wind_speed_time",
+   "average_wind_speed",
+   "maximum_wind_speed_direction"
+  ]
+ },
+ "5-03": {
+  "title": "종량제봉투판매실적",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "base_date",
+    "label": "판매일자",
+    "type": "STRING"
+   },
+   {
+    "name": "city_name",
+    "label": "시구분",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_name",
+    "label": "읍면동",
+    "type": "STRING"
+   },
+   {
+    "name": "wastebag_type",
+    "label": "종량제봉투타입",
+    "type": "STRING"
+   },
+   {
+    "name": "wastebag_liter",
+    "label": "종량제봉투용량",
+    "type": "BIGINT"
+   },
+   {
+    "name": "sale_count",
+    "label": "종량제봉투판매건수",
+    "type": "BIGINT"
+   },
+   {
+    "name": "sale_amount",
+    "label": "종량제봉투판매금액",
+    "type": "BIGINT"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "city_name",
+   "emd_name",
+   "wastebag_type",
+   "wastebag_liter",
+   "sale_count",
+   "sale_amount"
+  ]
+ },
+ "5-04": {
+  "title": "대형폐기물 현황_제주시",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "배출일자",
+    "type": "STRING"
+   },
+   {
+    "name": "expected_date",
+    "label": "배출예정일",
+    "type": "STRING"
+   },
+   {
+    "name": "emd_name",
+    "label": "판매지역구분",
+    "type": "STRING"
+   },
+   {
+    "name": "request_type",
+    "label": "신청구분",
+    "type": "STRING"
+   },
+   {
+    "name": "pay_type",
+    "label": "결제유형",
+    "type": "STRING"
+   },
+   {
+    "name": "state",
+    "label": "처리상태",
+    "type": "STRING"
+   },
+   {
+    "name": "waste_first_type",
+    "label": "폐기물구분1",
+    "type": "STRING"
+   },
+   {
+    "name": "waste_second_type",
+    "label": "폐기물구분2",
+    "type": "STRING"
+   },
+   {
+    "name": "waste_third_type",
+    "label": "폐기물구분3",
+    "type": "STRING"
+   },
+   {
+    "name": "size",
+    "label": "폐기물규격",
+    "type": "STRING"
+   },
+   {
+    "name": "fee_amount",
+    "label": "수수료",
+    "type": "INT"
+   },
+   {
+    "name": "count",
+    "label": "폐기물수량",
+    "type": "INT"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "expected_date",
+   "emd_name",
+   "request_type",
+   "pay_type",
+   "state",
+   "waste_first_type",
+   "waste_second_type",
+   "waste_third_type",
+   "size",
+   "fee_amount",
+   "count"
+  ]
+ },
+ "5-05": {
+  "title": "음식물쓰레기 배출현황_제주시",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(환경관리공단)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "배출일시",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "waster_grp",
+    "label": "배출지명",
+    "type": "STRING"
+   },
+   {
+    "name": "tag_gno",
+    "label": "태그관리번호",
+    "type": "STRING"
+   },
+   {
+    "name": "em_g",
+    "label": "배출량",
+    "type": "INT"
+   },
+   {
+    "name": "discount_yn",
+    "label": "감면여부",
+    "type": "STRING"
+   },
+   {
+    "name": "em_amt",
+    "label": "선불금액",
+    "type": "INT"
+   },
+   {
+    "name": "pay_type",
+    "label": "선후불구분",
+    "type": "STRING"
+   },
+   {
+    "name": "device_no",
+    "label": "장비번호",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "waster_grp",
+   "tag_gno",
+   "em_g",
+   "discount_yn",
+   "em_amt",
+   "pay_type",
+   "device_no"
+  ]
+ },
+ "5-06": {
+  "title": "음식물쓰레기 배출현황_서귀포",
+  "export": "데이터 반출 가능",
+  "provider": "제주특별자치도(환경관리공단)",
+  "columns": [
+   {
+    "name": "base_date",
+    "label": "배출일시",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_year",
+    "label": "년",
+    "type": "STRING"
+   },
+   {
+    "name": "pt_month",
+    "label": "월",
+    "type": "STRING"
+   },
+   {
+    "name": "waster_grp",
+    "label": "배출지명",
+    "type": "STRING"
+   },
+   {
+    "name": "tag_gno",
+    "label": "태그관리번호",
+    "type": "STRING"
+   },
+   {
+    "name": "em_g",
+    "label": "배출량",
+    "type": "STRING"
+   },
+   {
+    "name": "discount_yn",
+    "label": "감면여부",
+    "type": "STRING"
+   },
+   {
+    "name": "em_amt",
+    "label": "선불금액",
+    "type": "STRING"
+   },
+   {
+    "name": "pay_type",
+    "label": "선후불구분",
+    "type": "STRING"
+   },
+   {
+    "name": "device_no",
+    "label": "장비번호",
+    "type": "STRING"
+   }
+  ],
+  "csv_columns": [
+   "base_date",
+   "waster_grp",
+   "tag_gno",
+   "em_g",
+   "discount_yn",
+   "em_amt",
+   "pay_type",
+   "device_no"
+  ]
+ }
+}

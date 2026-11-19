@@ -1,0 +1,8 @@
+# 제주 임팩트 체커: 직접 쓰는 패키지(버전 고정). 전체 고정 목록은 requirements-lock.txt
+streamlit==1.67.0
+pandas==3.1.1
+numpy==2.5.5
+matplotlib==3.11.2
+python-docx==1.2.0
+anthropic==2.9.0
+pyarrow==26.0.1

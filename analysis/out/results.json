@@ -1,0 +1,137 @@
+{
+ "demoA_pct": {
+  "value": 16.8,
+  "display": "+16.8%",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoA_ci": {
+  "value": "+13.3~+21.4%",
+  "display": "+13.3~+21.4%",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoA_p": {
+  "value": 0.004,
+  "display": "0.004",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoA_light": {
+  "value": "초록",
+  "display": "초록",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoA_ntreated": {
+  "value": 4,
+  "display": "4곳",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoA_ncontrols": {
+  "value": 15,
+  "display": "15곳",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoA_net_shown": {
+  "value": "표시",
+  "display": "표시",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoA_sec": {
+  "value": 1.1,
+  "display": "1.1초",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoB_pct": {
+  "value": -2.3,
+  "display": "-2.3%",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoB_ci": {
+  "value": "-5.5~+1.0%",
+  "display": "-5.5~+1.0%",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoB_p": {
+  "value": 0.361,
+  "display": "0.361",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoB_light": {
+  "value": "빨강",
+  "display": "빨강",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoB_ntreated": {
+  "value": 4,
+  "display": "4곳",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoB_ncontrols": {
+  "value": 15,
+  "display": "15곳",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoB_net_shown": {
+  "value": "표시",
+  "display": "표시",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoB_sec": {
+  "value": 1.1,
+  "display": "1.1초",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoC_pct": {
+  "value": 9.3,
+  "display": "+9.3%",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoC_ci": {
+  "value": "+0.5~+20.2%",
+  "display": "+0.5~+20.2%",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoC_p": {
+  "value": 0.088,
+  "display": "0.088",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoC_light": {
+  "value": "노랑",
+  "display": "노랑",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoC_ntreated": {
+  "value": 2,
+  "display": "2곳",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoC_ncontrols": {
+  "value": 15,
+  "display": "15곳",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoC_net_shown": {
+  "value": "표시 안 함(반출 불가)",
+  "display": "표시 안 함(반출 불가)",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demoC_sec": {
+  "value": 1.0,
+  "display": "1.0초",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demo_lift_pct": {
+  "value": 15,
+  "display": "15%",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demo_n_stations": {
+  "value": 40,
+  "display": "40곳",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ },
+ "demo_n_emd": {
+  "value": 43,
+  "display": "43곳",
+  "source": "가상 센터 데이터(impact_engine/synth.py, 공개 명세서 v13 컬럼 구조, 값은 지어낸 것)"
+ }
+}
