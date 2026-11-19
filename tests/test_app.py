@@ -31,3 +31,15 @@ def test_hub_screen_shows_needed_files_and_sample():
     assert not at.exception
     assert any("743번 파일" in m.value for m in at.markdown)        # 정류소 분석에 필요한 파일 안내
     assert any("판별 결과: 이용자 유형별 버스정류소 이용 인원 현황" in c.value for c in at.caption)  # 표본 미리보기
+
+
+def test_next_buttons_follow_the_four_steps():
+    at = AppTest.from_file("../app.py", default_timeout=120).run()
+    {b.label: b for b in at.button}["가상 데이터 불러오기"].click().run()
+    btns = {b.label: b for b in at.button}
+    btns["다음: ③ 결과·신호등"].click().run()                 # 자료·처리군이 준비되면 ③으로
+    assert at.session_state["step"] == "③ 결과·신호등"
+    {b.label: b for b in at.button}["분석 실행"].click().run()
+    {b.label: b for b in at.button}["다음: ④ 반출·보고서"].click().run()   # 분석이 끝나면 ④로
+    assert not at.exception
+    assert at.session_state["step"] == "④ 반출·보고서"

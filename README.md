@@ -119,6 +119,7 @@ API 키 발급: https://platform.claude.com → 로그인 → API Keys → Creat
 - 파일 종류는 머리글로 자동 판별합니다(허브 3종, 센터 명세서 v13의 71종).
 - **처리군 확인 표**: 장소 검색어와 이름이 맞는 정류소가 나옵니다. 빼거나 '도로 통제·임시 정류소'로 표시하세요. 표시한 정류소는 기본 결과에서 빠지고, 넣은 결과가 함께 계산됩니다.
 - 가상 데이터를 쓰면 제목 옆에 **가상 데이터** 배지가 붙습니다. 불러온 자료의 종류·단위 수·기간·원본 반출 가능 여부가 초록 상자에 나옵니다.
+- 처리군이 하나 이상 정해지면 맨 아래 **다음: ③ 결과·신호등** 버튼이 나옵니다.
 
 **제주데이터허브 공개 파일을 고르면**
 
@@ -140,6 +141,7 @@ API 키 발급: https://platform.claude.com → 로그인 → API Keys → Creat
 ![③ 결과·신호등: 그림 3개와 반대 설명 점검](docs/images/03_result_charts.png)
 
 - 그림 1(일별 순효과)이 크게, 그림 2(실측과 반사실)·그림 3(위약검정 분포)이 나란히 나옵니다. 처리군은 청록 실선, 대조군은 회청 점선입니다.
+- 분석이 끝나면 맨 아래 **다음: ④ 반출·보고서** 버튼으로 넘어갑니다. 탭을 직접 눌러 오가도 됩니다.
 - 신뢰도 신호등(초록·노랑·빨강), 순효과(%)·95% 구간·우연일 확률(p)·순증 인원(원본 반출 가능 자료만), 그림 3개, 반대 설명 점검(겹치는 행사·날씨·공휴일·자료 공백·도로 통제·크기 이상·기록 방식 변화), 판단 기록.
 
 | 신호등 | 판정 규칙(`impact_engine/config.py`) |
@@ -176,7 +178,7 @@ API 키 발급: https://platform.claude.com → 로그인 → API Keys → Creat
 - `tests/test_app.py`: 가상 데이터로 화면 ①~③이 오류 없이 돌아가는지(Streamlit AppTest).
 - `tests/test_guard.py`, `tests/test_llm_boundary.py`: 반출 판정·10 미만 블라인드·2차 가림, 숫자 가림, Claude에 숫자가 가지 않는지.
 - `tests/test_hub_format.py`: 제주데이터허브 상세 화면에 공개된 표본 행(`data/hub_sample/`, 743·561·512 각 20행)으로 파일 판별·읽기(정류소 이름 공백 정리, 노선 번호, BOM 머리글). 전체 파일로는 시험하지 못했습니다.
-- 모두 17개(화면 '다음' 버튼·허브 화면 시험 포함). 시험은 `tests/conftest.py`가 Claude를 꺼 두어 `.env`에 키가 있어도 API를 부르지 않습니다(실제 호출 확인은 `analysis/measure_llm_usage.py`, `analysis/measure_e2e.py`).
+- 모두 18개(화면 '다음' 버튼으로 ①→④ 이동·허브 화면 시험 포함). 시험은 `tests/conftest.py`가 Claude를 꺼 두어 `.env`에 키가 있어도 API를 부르지 않습니다(실제 호출 확인은 `analysis/measure_llm_usage.py`, `analysis/measure_e2e.py`).
 - 난수는 `config.SEED = 20261120` 으로 고정됩니다.
 
 기획서 수치 재현(`analysis/`, 결과는 `analysis/out/`):

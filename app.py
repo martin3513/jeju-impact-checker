@@ -103,6 +103,14 @@ def go_step(label: str) -> None:
     ss["step"] = label
 
 
+def next_step(message: str, target: str, key: str) -> None:
+    """단계 끝의 '다음' 줄: 완료 알림과 다음 탭으로 가는 버튼."""
+    with st.container(horizontal=True, vertical_alignment="center"):
+        st.success(message, icon=":material/check:")
+        st.button(f"다음: {target}", type="primary", icon=":material/arrow_forward:", icon_position="right",
+                  on_click=go_step, args=(target,), key=key)
+
+
 step1, step2, step3, step4 = st.tabs(STEPS, key="step", on_change="rerun")
 
 # ---------------- ① 묻기 ----------------
@@ -180,10 +188,7 @@ with step1:
                "keywords": [k.strip() for k in kw.split(",") if k.strip()], "treated_user_type": tu, "control_user_type": cu,
                "road": {"모름": None, "없음": False, "있음": True}[road], "question": question, "annual": annual}
     if ev_title:
-        with st.container(horizontal=True, vertical_alignment="center"):
-            st.success("명세가 준비되었습니다. ② 자료 넣기로 가세요.", icon=":material/check:")
-            st.button("다음: ② 자료 넣기", type="primary", icon=":material/arrow_forward:", icon_position="right",
-                      on_click=go_step, args=(STEPS[1],), key="next_to_data")
+        next_step("명세가 준비되었습니다. ② 자료 넣기로 가세요.", STEPS[1], "next_to_data")
 
 # ---------------- ② 데이터 넣기 ----------------
 with step2:
@@ -297,6 +302,10 @@ with step2:
                 ss.road_units = ed.loc[ed["도로 통제·임시 정류소"], "단위"].tolist()
                 ss.exclude = ed.loc[ed["도로 통제·임시 정류소"], "단위"].tolist() + [u for u in tbl["단위"] if u not in ss.treated]
                 st.caption(f"처리군 {len(ss.treated)}개 · 대조군 후보에서 빼는 단위 {len(ss.exclude)}개(파급·통제 우려)")
+        if ss.get("treated"):
+            next_step(f"자료와 처리군 {len(ss.treated)}개가 준비되었습니다. ③에서 분석을 실행하세요.", STEPS[2], "next_to_result")
+        else:
+            st.warning("처리군에 넣을 단위를 하나 이상 고르면 다음 단계로 갈 수 있습니다.")
 
 # ---------------- ③ 결과 보기 ----------------
 with step3:
@@ -357,6 +366,7 @@ with step3:
         with st.expander("요약표·대조군", icon=":material/table:"):
             st.table(pd.DataFrame(a.summary_rows.items(), columns=["항목", "값"]).astype(str), alt="분석 요약표")
             st.write(", ".join(r.controls) if a.panel.exportable_raw else f"대조 단위 {len(r.controls)}개(이름·값 비공개)")
+        next_step("분석이 끝났습니다. ④에서 결과보고서와 반출 신청 문안을 받으세요.", STEPS[3], "next_to_export")
 
 # ---------------- ④ 내보내기 ----------------
 with step4:
