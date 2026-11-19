@@ -21,7 +21,13 @@ from impact_engine.pipeline import run, match_units, download_guide
 
 ROOT = Path(__file__).resolve().parent
 DATA_HUB = ROOT / "data" / "hub"
+DATA_HUB_SAMPLE = ROOT / "data" / "hub_sample"   # 허브 상세 화면에 공개된 표본 행(2019-01-01 일부)
 DATA_SAMPLE = ROOT / "data" / "sample_center"
+# 허브 버스 파일: (판별 코드, 데이터 번호, 이름, 쓰임)
+HUB_FILES = [("hub_743", "743", "이용자 유형별 버스정류소 이용 인원 현황", "정류소 분석(축제·행사)"),
+             ("hub_561", "561", "일별 버스 승차 인원 수 현황", "이용자 유형 분석(요금 정책)"),
+             ("hub_512", "512", "일별 시간대별 버스 승차 인원 수 현황", "교차 점검(선택)")]
+HUB_URL = "https://jejudatahub.net/data/view/data/{}"
 CACHE = ROOT / "data" / "cache"
 WORK = ROOT / "work"          # 이용자가 올린 센터 CSV와 결과(삭제 대상)
 
@@ -89,7 +95,15 @@ ui.header("제주 임팩트 체커",
           "축제·행사·정책의 날짜와 장소를 넣으면, 비슷한 대조 정류소·지역과 비교해 '그날 그곳에서만 늘어난 몫(순효과)'을 계산하고 "
           "우연인지 검사합니다. 결과는 방문객 수가 아니라 데이터가 재는 것(버스 이용 등)의 변화입니다.")
 
-step1, step2, step3, step4 = st.tabs(["① 묻기", "② 자료 넣기", "③ 결과·신호등", "④ 반출·보고서"])
+STEPS = ["① 묻기", "② 자료 넣기", "③ 결과·신호등", "④ 반출·보고서"]
+
+
+def go_step(label: str) -> None:
+    """'다음' 버튼: 탭을 코드로 바꾼다(st.tabs의 key로 현재 탭을 기록)."""
+    ss["step"] = label
+
+
+step1, step2, step3, step4 = st.tabs(STEPS, key="step", on_change="rerun")
 
 # ---------------- ① 묻기 ----------------
 with step1:
@@ -166,7 +180,10 @@ with step1:
                "keywords": [k.strip() for k in kw.split(",") if k.strip()], "treated_user_type": tu, "control_user_type": cu,
                "road": {"모름": None, "없음": False, "있음": True}[road], "question": question, "annual": annual}
     if ev_title:
-        st.success("명세가 준비되었습니다. ② 데이터 넣기로 가세요.", icon=":material/arrow_forward:")
+        with st.container(horizontal=True, vertical_alignment="center"):
+            st.success("명세가 준비되었습니다. ② 자료 넣기로 가세요.", icon=":material/check:")
+            st.button("다음: ② 자료 넣기", type="primary", icon=":material/arrow_forward:", icon_position="right",
+                      on_click=go_step, args=(STEPS[1],), key="next_to_data")
 
 # ---------------- ② 데이터 넣기 ----------------
 with step2:
@@ -179,19 +196,47 @@ with step2:
         weather = None
         if src.startswith("제주데이터허브"):
             DATA_HUB.mkdir(parents=True, exist_ok=True)
-            files = sorted(DATA_HUB.glob("*.csv"))
-            if not files:
-                st.warning(f"{DATA_HUB} 폴더에 허브 파일(743·561·512)을 넣어 주세요. 받는 방법은 사용자 매뉴얼을 보세요.")
-            dets = [(f, detect_dataset(f)) for f in files]
-            st.dataframe(pd.DataFrame([{"파일": f.name, "판별": d.title, "일치도": round(d.score, 2)} for f, d in dets]), hide_index=True,
-                         alt="허브 폴더의 파일과 판별 결과")
+            dets = [(f, detect_dataset(f)) for f in sorted(DATA_HUB.glob("*.csv"))]
+            found = {d.dataset: f for f, d in dets}
             want = "hub_561" if sp and sp["unit_kind"] == "이용자 유형" else "hub_743"
-            cand = [f for f, d in dets if d.dataset == want]
-            if cand and st.button("불러오기(처음 한 번은 1~3분)", type="primary"):
-                with st.spinner("큰 파일을 '일×단위' 합계로 줄이는 중…"):
-                    kwargs = {"unit": "user_type"} if want == "hub_561" else {}
-                    ss.panel = load_hub_cached(cand[0], want, CACHE, **kwargs)
-                    ss["synthetic"] = False
+            want_no = next(no for code, no, _, _ in HUB_FILES if code == want)
+            st.markdown(f"지금 명세(비교 단위: **{sp['unit_kind'] if sp else '정류소'}**)에는 **{want_no}번 파일**이 필요합니다.")
+            st.dataframe(
+                pd.DataFrame([{"번호": no, "데이터": name, "쓰임": use,
+                               "이 PC": f"있음 · {found[code].name}" if code in found else "없음",
+                               "받는 곳": HUB_URL.format(no)} for code, no, name, use in HUB_FILES]),
+                hide_index=True, width="stretch", alt="필요한 허브 파일과 이 PC에 있는지",
+                column_config={"번호": st.column_config.TextColumn(width="small"),
+                               "이 PC": st.column_config.TextColumn(width="medium"),
+                               "받는 곳": st.column_config.LinkColumn("받는 곳", display_text="허브에서 받기")})
+            if want in found:
+                if st.button(f"{want_no}번 파일 불러오기(처음 한 번은 1~3분)", type="primary"):
+                    with st.spinner("큰 파일을 '일×단위' 합계로 줄이는 중…"):
+                        kwargs = {"unit": "user_type"} if want == "hub_561" else {}
+                        ss.panel = load_hub_cached(found[want], want, CACHE, **kwargs)
+                        ss["synthetic"] = False
+            else:
+                st.info(f"표의 **허브에서 받기**를 눌러 로그인 → 「프로젝트 담기」 → 파일 내려받기 후, 아래에 올리거나 "
+                        f"`data/hub` 폴더에 넣으세요. 파일 이름은 그대로 두어도 됩니다.", icon=":material/download:")
+                hub_up = st.file_uploader("받은 허브 CSV 올리기(공개 데이터라 data/hub 폴더에 저장)", type=["csv"],
+                                          accept_multiple_files=True, key="hub_upload")
+                if hub_up and st.button("폴더에 저장", icon=":material/save:"):
+                    for f in hub_up:
+                        (DATA_HUB / Path(f.name).name).write_bytes(f.getvalue())
+                    st.rerun()
+            with st.expander("표본 파일 먼저 보기(허브 상세 화면에 공개된 행)", icon=":material/preview:"):
+                pick = st.segmented_control("표본", [no for _, no, _, _ in HUB_FILES], default=want_no,
+                                            format_func=lambda no: f"{no}번", key="hub_sample_pick") or want_no
+                code = next(c for c, no, _, _ in HUB_FILES if no == pick)
+                sample = DATA_HUB_SAMPLE / f"{code}_sample.csv"
+                det = detect_dataset(sample)
+                st.dataframe(pd.read_csv(sample, encoding=det.encoding, dtype=str), hide_index=True, height=250,
+                             alt=f"허브 {pick}번 표본 행")
+                st.caption(f"판별 결과: {det.title} · 2019-01-01 하루치 일부라 분석에는 쓸 수 없습니다. "
+                           "전체 파일 없이 바로 분석해 보려면 위에서 '가상 센터 데이터로 시연'을 고르세요. "
+                           "출처: 제주데이터허브(제공 제주빅데이터센터).")
+                st.download_button(f"{pick}번 표본 CSV 받기", sample.read_bytes(), file_name=sample.name,
+                                   icon=":material/download:", key="hub_sample_dl")
         elif src.startswith("센터 CSV"):
             st.info("센터 화면에서 1개월씩 내려받은 같은 종류의 CSV 여러 개를 함께 올리세요(정류소별 이용 3-04, 탐나는전 1-32, 유동인구 4-11).")
             if sp:

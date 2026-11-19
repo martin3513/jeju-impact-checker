@@ -3,7 +3,7 @@
 from pathlib import Path
 from impact_engine.loaders import detect_dataset, load_hub_743, load_hub_561, load_hub_512
 
-FX = Path(__file__).parent / "fixtures"
+FX = Path(__file__).parent.parent / "data" / "hub_sample"   # 앱 화면의 '표본 미리보기'와 같은 파일
 
 
 def test_detect_hub_files():
